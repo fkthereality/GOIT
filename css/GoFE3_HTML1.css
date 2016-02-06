@@ -1,64 +1,44 @@
-
-.outside{
-background: White;
-width: 510px;
-height: 750px;
-margin: auto;
-font-weight: bold;
-font-size: 17px; 
-box-shadow: 0px 0px 8px -1px #808080;
-}
-
-.inside{
-width: 400px;
-
-margin: auto;
-
-}
-
-body{
-	background: #E8E8E8;
+.wrapper{
+		background: #E8E8E8;
+		margin: 0 auto;
     width: 1440px;
     height: 806px;
-border-top: 1px solid black;
-border-left: 1px solid black; 
-border-right: 1px solid black;
-border-bottom: 4px solid black;
-border-radius: 5px;
-line-height: 1.5;
-
+	border-top: 1px solid black;
+	border-left: 1px solid black; 
+	border-right: 1px solid black;
+	border-bottom: 4px solid black;
+	border-radius: 5px;
 }
- h3, .footer{
+.head{
+	background: White;
+	margin: 0 auto;
+	box-shadow: 0px 0px 8px -1px #808080;
+		width: 510px;
+		height: 750px;
+		font-weight: bold;
+		font-size: 17px; 
+		line-height: 1.5;
+		padding-left: 60px; 
+		padding-right: 60px;
+}
+ h1{
 text-align: center; 
 font-size: 21px; 
 font-weight: 650;
 }
-
-
-
-.answers{
-border-bottom: 1px solid black;
-padding-top: 30px;
+img {
+	width: 150px;
+    height: 150px;
+		display:block;
+		margin:10px auto 10px;
+}
+div{
+	border-bottom: 1px solid black;
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-left: 20px; 
+}
+.footer{
+	border-bottom: 0px;
 }
 
-.feedback, .answers{
-border-top: 1px solid black;
-
-}
-ul{
-	padding-top: 5px;
-}
-.study{
-padding-bottom: 20px;	
-}
-.vkontakte{
-	padding-top: 5px;
-	padding-bottom: 20px;
-}
-
-span, .contacts, p, .feedback, .study{
-padding-left: 20px; 
-}
-.contacts{
-	padding-top: 10px;
-}
