@@ -21,9 +21,10 @@
 		padding-left: 60px; 
 		padding-right: 60px;
 }
+
 .border{
 		border-bottom: 1px solid black;
-		padding-bottom:15px;
+		padding-bottom: 15px;
 }
  h1{
 	text-align: center; 
@@ -36,6 +37,11 @@
 		display:block;
 		margin:10px auto 10px;
 }
+.phone{
+	padding-bottom: 20px;
+}
+
+
 .answers,
 .contacts,
 .footer{
@@ -47,4 +53,8 @@
 .footer{
 	border-bottom: 0px;
 }
+.answers{
+	padding-bottom: 0px;
+}
+
 
