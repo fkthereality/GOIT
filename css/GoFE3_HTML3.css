@@ -24,7 +24,7 @@
 
 .border{
 		border-bottom: 1px solid black;
-		
+		padding-bottom: 15px;
 }
  h1{
 	text-align: center; 
@@ -42,7 +42,7 @@
 }
 
 
-
+.answers,
 .contacts,
 .footer{
 	border-bottom: 1px solid black;
@@ -52,13 +52,9 @@
 }
 .footer{
 	border-bottom: 0px;
-	padding-top: 30px;
 }
 .answers{
-
-	border-bottom: 1px solid black;
-	padding-top: 15px;
+	padding-bottom: 0px;
 }
-
 
 
