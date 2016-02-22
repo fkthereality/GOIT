@@ -1,23 +1,25 @@
 
-
+body {
+ background-image: url('../img/bg.png');
+ }
 .background{
+
     width: 1280px;
     height: 1060px;
-    
-    background-image: url('../img/bg.jpg');
-    
-
-}
+        
+    }
 
 .wrapper{
 		/*background: ffffff;*/
 		margin: 0 auto;
-    width: 1018px;
+    width: 1000px;
     height: 991px;
 	box-shadow: 0px 0px 8px -1px #808080;
 	font-family: Tahoma, sans-serif; 
 	font-size: 18px;
 	z-index: 2;
+	margin-top: 39px;
+
 }
 
 .top{
@@ -26,6 +28,8 @@
     margin: 0 auto;
     color: #128aa7;
     font-size: 12px;
+    background: #ffffff;
+
 
 }
 .container{
@@ -60,7 +64,7 @@
 .contries{
 
 	float: right;
-	width: 326px;
+	width: 360px;
     height: 56px;
     display:block;
     font-size: 10px;
@@ -80,6 +84,7 @@
 
 .contries a{
 	/*display: inline-block;*/
+        padding-left: 9px;
 }
 .contries li{
 float: left;
@@ -99,9 +104,12 @@ float: left;
 }
 
 .logo p{
-	position: absolute;
-    top: 94px;
-    left: 215px;
+    position: relative;
+    bottom: 77px;
+    left: 82px;
+}
+.logo img{
+	padding-left: 20px;
 }
 
 .center-panel {
@@ -170,7 +178,7 @@ float: left;
 .blocks{
 	width: 1000px;
     height: 546px;
-    background: green;
+    
     position: relative;
     overflow: hidden;
     font-size: 14px;
@@ -181,7 +189,7 @@ float: left;
 .left{
 float: left;
 width: 20.9%;
-height: 100%;
+height: 98%;
 background: #edeef0;
 
 }
@@ -189,7 +197,7 @@ background: #edeef0;
 .center{
 	
 	width: 58.2%;
-	height: 100%;
+	height: 98%;
 	background: white;
 	margin: 0 auto;
 
@@ -197,13 +205,18 @@ background: #edeef0;
 .right{
 	float: right;
 	width: 20.9%;
-	height: 100%;
+	height: 98%;
   	background: #edeef0;
 }
 .copyright{
 	text-align: center;
 	padding-top: 15px;
+	color: #ffffff;
 }
 
+.text{
+	font-weight: bolder;
+	font-size: 19px;
 
+}
 
